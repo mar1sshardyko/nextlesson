@@ -30,3 +30,14 @@ try:
         print("Wrong Syntax")
 except NameError as error:
     print(error)
+print("==========NEXTLESSON===================")
+def checking(var_1):
+    if type(var_1) != str:
+        raise TypeError (f"Sorry!")
+    else:
+        return var_1
+    checking("10")
+    class BuildingError(Exception)
+        def __str__(self):
+            return f"ТЕКСТ НЕ ПИШЕМ"
+def check_material (amount_material, limit value)
